@@ -37,7 +37,7 @@ nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 
 " NERDTree settings {{{
 nnoremap <TAB> :NERDTreeToggle<CR>
-nnoremap <leader>m :NERDTreeClose<CR>:NERDTreeFind<CR>
+"nnoremap <leader>m :NERDTreeClose<CR>:NERDTreeFind<CR>
 
 " Store the bookmarks file
 let NERDTreeBookmarksFile=expand("$HOME/.vim/NERDTreeBookmarks")
@@ -109,3 +109,4 @@ let g:tagbar_ctags_bin = '/usr/local/homebrew/bin/ctags'
 let g:tagbar_width = 30
 
 let g:ctrlp_cache_dir = $HOME.'/.vim/tmp/cache/ctrlp'
+
