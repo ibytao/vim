@@ -21,6 +21,7 @@ set ignorecase              "检索时忽略大小写
 set hls                     "检索时高亮显示匹配项
 set helplang=cn             "帮助系统设置为中文
 set foldmethod=syntax       "代码折叠
+set foldlevelstart=99       "打开文件是默认不折叠代码
 set encoding=utf-8          "设置编码方式
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1      "自动判断编码时 依次尝试一下编码
 set hidden                  "设置隐藏缓冲区
