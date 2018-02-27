@@ -30,7 +30,7 @@ set incsearch               "设置搜索预览结果
 "theme mustang_silent, molokai, railscat, kellys, molokai_deep, wombat256, mustang, mustang_silent, badwolf
 "colorscheme mustang_silent
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 
 let mapleader=","
 
