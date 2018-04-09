@@ -113,3 +113,8 @@ let g:tagbar_width = 30
 
 let g:ctrlp_cache_dir = $HOME.'/.vim/tmp/cache/ctrlp'
 
+let g:syntastic_javascript_checkers = ['$HOME/Workspace/m-full-stack/node_modules/.bin/eslint']
+let g:syntastic_always_populate_loc_list = 1
+
+let g:formatdef_eslint = '"SRC=eslint-temp-${RANDOM}.js; cat - >$SRC; eslint --fix $SRC >/dev/null 2>&1; cat $SRC | perl -pe \"chomp if eof\"; rm -f $SRC"'
+let g:formatters_javascript = ['$HOME/Workspace/m-full-stack/node_modules/.bin/eslint']
